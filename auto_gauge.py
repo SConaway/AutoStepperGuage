@@ -24,10 +24,9 @@
 # SOFTWARE.
 from Adafruit_MotorHAT import Adafruit_MotorHAT
 
-import widget
 
 
-class AutoGaugeWidget(widget.Widget):
+class AutoGaugeWidget(self):
     """Automotive gauge stepper motor.  Small dual-coil stepper that can travel
     ~315 degrees with 600 steps.  Send a numeric value from 0-100 to move the
     dial to the specified percent along its entire range of movement.
